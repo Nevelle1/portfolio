@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe Game</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		#container {
+			width: 303px;
+			margin: 0 auto;
+			margin-top: 40px;
+		}
+		h1 {
+			text-align: center;
+			margin-bottom: 15px;
+		}
+		#wrapper {
+			box-shadow: 0 3px 4px 0 #000;
+		}
+		.col {
+			float: left;
+			margin: 0 auto;
+		}
+		.col > div:nth-child(-n+1) {
+			border-bottom: 1px solid #000;
+		}
+		.col > div:nth-child(-n+2) {
+			border-bottom: 1px solid #000;
+		}
+		.col > div {
+			border-right: 1px solid #000;
+		}
+		.col:last-child {
+			border-right: none;
+			border: 1px solid red;
+		}
+		#wrapper.col * {
+			border-right: none;
+		}
+		.reset {
+			clear: both;
+		}
+		.box {
+			width: 100px;
+			height: 100px;
+			background-color: grey;
+			font-size: 80px;
+			text-align: center;
+		}
+		body {
+			font-size: 80%;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<h1>Tic Tac Toe</h1>
+		<div id="content"></div>
+		<div id="wrapper">
+			<div class="col" id="firstColum">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<div class="col">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<div class="reset"></div>
+		</div>
+		<!-- <form>
+			<p><input type="text" id="form"><button id="button">button</button></p>
+		</form> -->
+	</div>
+	<script>
+
+// win function
+
+// which payer function
+
+
+var turnsArray = [];
+// var player1 = turnsArray[0];
+// var player2 = turnsArray;
+var turn = 0;
+
+
+// function click() {
+	
+	
+// 	 = turnsArray++;
+// } 
+
+// function x() {
+// 	var x = this.innerText ==x;
+// }
+
+
+function player() {
+	
+	turn++
+	turnsArray.push(turn);
+	//var startTurn = onclick.document.getElementByClassName('box');
+	if (this.innerText === "x") {
+		alert("You alredy have and X here!");
+		turnsArray.pop();
+	}else if (this.innerText === "o") {
+		alert("You alredy have and o here!");
+		turnsArray.pop();
+	}
+	else if (turnsArray.length%2 !== 0 && this.innerText !== "x") {
+		this.innerText = "x";
+
+	} else {
+		this.innerText ="o";
+	}
+
+}
+
+
+
+items = document.getElementsByClassName('box');
+[].forEach.call(items, function (el) {
+  el.addEventListener('click', player);
+});
+
+
+
+var button = document.getElementById("button");
+button.onclick = function (event) {
+	event.preventDefault();
+	var username = document.getElementById("form").value;
+	everything(username);
+}
+
+// function winner() {
+// 	var col = document.getElementsByClassName.querySelectorAll(.box);
+// 	for (var i = 0; i < col.childNodes.length; i++ ) {
+// 		if (col.childNodes[i] === "x") {
+// 			alert("X wins");
+// 		} else if (col.childNodes[i] === "o") {
+// 			alert("o wins");
+// 		}
+// 	}
+// 	if (box === "x") {
+// 		alert("X wins");
+// 	} else if (box === "o") {
+// 		alert("o wins");
+// 	} else {
+// 		alert("no one wins");
+// 	}
+// };
+// var el = document.getElementsByClassName('box');
+// el.onclick = player; 
+
+	</script>
+</body>
+</html>
