@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackjack Game</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<header>
+		<div id="money"></div>
+	</header>
+	<div id="container">
+		<p id="dealerTotal" class="total"></p>
+		<h1>3000</h1>
+		<div id="dealerCards">
+			<!-- <div class="hiddenCard"><img src="images/back.png"></div> -->
+			<!-- <div class="dealerStack"><img src="images/queen_of_diamonds.png"></div>
+			<div class="dealerStack"><img src="images/queen_of_diamonds.png"></div> -->
+			<div id="hiddenCard"><img src="images/back.png"></div>
+		</div>	
+		<div class="reset"></div>
+		<div id="wrapper">
+			<div id="notification">Bet and Deal!</div>
+		</div>
+		<div id="userCards">
+		<p id="userTotalValue" class="total"></p>
+			<!-- <div class="dealerStack"><img src="images/queen_of_diamonds.png"></div>
+			<div class="dealerStack"><img src="images/queen_of_diamonds.png"></div>
+			<div class="dealerStack"><img src="images/queen_of_diamonds.png"></div> -->
+		</div>
+		<div class="reset"></div>
+		<footer>
+			<div>
+				<!-- <div>Your Bid$<span id="bid"></span></div> -->
+				<div class="reset"></div>
+			</div>
+			<div class="totalChips"></div>	
+			<div id="bottomFooter">
+				<button value="25" class="chip chip-twenty-five" id="chip-twenty-five">25</button>
+				<button value="50" class="chip chip-fifty" id="chip-fifty">50</button>
+				<button value="100" class="chip" id="chip-one-hundred">100</button>
+
+				<!-- <div class="chip chip-twenty-five" id="chip-twenty-five">25</div>
+				<div class="chip chip-fifty" id="chip-fifty">50</div>
+				<div class="chip chip-one-hundred" id="chip-one-hundred">100</div> -->
+				<button id="dealButton">Deal</button>
+				<button id="hitButton">Hit</button>
+				<button id="stay">Stay</button>
+				<button id="double">Double</button>
+				<!-- <button>Split</button> -->
+			</div>
+			<div class="reset"></div>
+		</footer>		
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
