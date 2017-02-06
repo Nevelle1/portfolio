@@ -1,0 +1,133 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/dalnegro-blackjackmat_detail_02.jpg);
+	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+#container {
+	width: 1000px;
+	margin: 0 auto;
+	padding-left: 200px;
+
+}
+h1 {
+	float: right;
+	color: #fff;
+	margin-right: 200px;
+}
+#bid {
+	float: right;
+	color: #fff;
+	margin-right: 200px;
+}
+#hiddenCard img {
+    width: 86px;
+    float: left;
+    height: 120px;
+    margin-top: 12px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#wrapper {
+	background-color: #01543c;
+	border-radius: 4px;
+	width: 30%;
+	opacity: 0.8;
+}
+#notification {
+	font-size: 28px;
+	font-weight: bold;
+	height: 50px;
+	padding: 10px 10px 0 20px;
+	/*box-shadow: 0 3px 4px 0 grey;*/
+}
+div#userCards {
+    margin-top: 100px;
+    height: 145px;
+}
+#dealerCards {
+	margin: 0 auto;
+	height: 145px;
+	/*margin-top: 180px;*/
+}
+#dealerTotal {
+	height: 30px;
+	margin: 0;
+}
+.dealerStack {
+	float: left;
+	background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #000;
+    margin: 10px;
+    margin-left: -60px;
+}
+.dealerStack img {
+	width: 65px;
+	padding: 10px;
+}
+.reset {
+	clear: both;
+}
+#playerCards {
+	margin: 0 auto;
+	/*margin-top: 80px;*/
+	background-color: #fff;
+	width: 231px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+#userTotalValue {
+	height: 20px;
+}
+.total {
+	color: #fff;
+	font-size: 18px;
+}
+.totalChips {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	height: 40px;
+}
+#bottomFooter {
+	margin: 0 auto;
+}
+.chip {
+	width: 16px;
+	color: white;
+	font-weight: 600;
+	background-color: red;
+	border-radius: 180px;
+	padding: 16px 27px 16px 16px;
+	border: 5px dotted white;
+	border: 5px dotted black;
+	float: left;
+	margin: 15px;
+}
+.twenty-five {
+	background-color: red;
+}
+.chip-fifty {
+	background-color: blue;
+}
+#chip-one-hundred {
+	background-color: green;
+	 padding: 16px 30px 16px 13px;
+
+}
+button {
+	padding: 6px 0px;
+	margin: 10px;
+	width: 60px;
+	border-radius: 5px;
+	background-color: #4286f4;
+	margin: 25px 0 45px 25px;
+}
+button:hover {
+	background-color: #BBBEBF;
+}
