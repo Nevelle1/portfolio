@@ -148,4 +148,13 @@ footer {
     margin: 0 auto;
   } 
 }
+@media (max-width: 1100px) {
+	.example {
+  	display: inline-block;
+  	text-align: center;
+  }
+	.jump {
+		clear: both;
+	}
+}
 
