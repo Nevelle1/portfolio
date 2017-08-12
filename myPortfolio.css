@@ -166,4 +166,17 @@ footer {
 		height: 250px;
 	}
 }
+@media (max-width: 940px) {
+	#toolBoxContainer {
+		text-align: ;
+		width: 38%;
+		border: 1px solid red;
+	}
+	#container {
+		width: 100%;
+	}
+	* {
+		width: 100% !important;
+	}
+}
 
