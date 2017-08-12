@@ -132,3 +132,20 @@ footer {
 	text-align: center;
 	padding-top: 15px;
 }
+.parah {
+  	width: 500px;
+  	margin: 0 auto;
+  }
+@media (max-width: 1100px) {
+  img#planet1, img#planet {
+  	display: none;
+  }
+  #title1 {
+  	position: relative;
+  }
+  article {
+    width: 850px;
+    margin: 0 auto;
+  } 
+}
+
