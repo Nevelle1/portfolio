@@ -150,11 +150,19 @@ footer {
 }
 @media (max-width: 1100px) {
 	.example {
-  	display: inline-block;
-  	text-align: center;
+  		display: inline-block;
+  		text-align: center;
+  		margin:0 auto;
   }
 	.jump {
 		clear: both;
+	}
+	#toolBoxContainer {
+		text-align: center;
+	}
+	.image {
+		width: 300px;
+		height: 250px;
 	}
 }
 
