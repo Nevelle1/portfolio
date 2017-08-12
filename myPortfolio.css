@@ -168,8 +168,8 @@ footer {
 }
 @media (max-width: 940px) {
 	#toolBoxContainer {
-		text-align: ;
-		width: 38%;
+		width: 53%;
+		display: block;
 	}
 	#container {
 		width: 100%;
