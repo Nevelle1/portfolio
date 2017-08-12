@@ -111,6 +111,7 @@ a.example .image:hover img{
 	width: 910px;
 	padding-left: 10px;
 	padding-bottom: 200px;
+	width: 100%;
 }
 .image {
 	width: 200px;
