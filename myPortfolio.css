@@ -170,7 +170,6 @@ footer {
 	#toolBoxContainer {
 		text-align: ;
 		width: 38%;
-		border: 1px solid red;
 	}
 	#container {
 		width: 100%;
@@ -178,5 +177,14 @@ footer {
 	* {
 		width: 100% !important;
 	}
+	img.image {
+	with: 200px;
+	height: 150px;
+	}
+	p {
+		width: 80%;
+	}
+	.skillImages {
+		display: none;
+	}
 }
-
